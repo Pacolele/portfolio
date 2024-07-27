@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import "../reset.css"
     import "../css/nav.css"
     import { onMount } from 'svelte';
@@ -57,16 +57,16 @@
         <a href="/" on:click={closeNav} class="{currRoute === '/' ? 'active-link' : ''}">Home</a>
       </li>
       <li>
-        <a href="/projects" on:click={closeNav} class="{currRoute === '/' ? 'active-link' : ''}">Projects</a>
+        <a href="/projects" on:click={closeNav} class="{currRoute === '/projects' ? 'active-link' : ''}">Projects</a>
       </li>
       <li>
-        <a href="/about" on:click={closeNav} class="{currRoute === '/' ? 'active-link' : ''}">About</a>
+        <a href="/about" on:click={closeNav} class="{currRoute === '/about' ? 'active-link' : ''}">About</a>
       </li>
       
     </ul>
   </div>
 
-<slot></slot>
+<slot/>
 
 
 <style>
