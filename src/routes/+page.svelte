@@ -35,9 +35,19 @@
 </script>
 
 <div class="content-container">
+    <div class="content-seperator">
+        <div class="introduction">
+            <div class="intro-text">
+                <h1>Hello!</h1>
+                <p>I am Elliot Hernesten, a programmer currently studying at Linköping University</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-seperator">
 	<div class="swipers-container">
-		<swiper-container
-			class="gallery"
+        <swiper-container
+        class="gallery"
 			slides-per-view="1"
 			css-mode="true"
 			navigation="true"
@@ -75,10 +85,7 @@
 		<swiper-container
 			slides-per-view="3"
 			class="slider-thumbnail"
-			free-mode="true"
-			direction="vertical"
-			space-between="50"
-			watch-slides-progres="true"
+			space-between="30"
 		>
 			<swiper-slide class="thumbnail">
 				<img alt="" src="/images/DSC_0027.JPG" />
@@ -102,6 +109,7 @@
 			</swiper-slide>
 		</swiper-container>
 	</div>
+    </div>
 </div>
 
 <style>
