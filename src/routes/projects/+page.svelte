@@ -1,3 +1,3 @@
-<div>
-    <h1>Projects</h1>
+<div class="content-container">
+
 </div>
